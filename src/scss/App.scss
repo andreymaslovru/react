@@ -1,0 +1,39 @@
+@import 'vars';
+@import 'reset';
+@import 'templates/header';
+@import 'templates/sidebar';
+@import 'templates/profile';
+
+body {
+    font-family: sans-serif;
+    background-color:#ECECEC;
+}
+
+input {
+    border: none;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.content {
+    display: grid;
+    grid-template-areas:
+    "sidebar profile";
+    grid-template-columns: 2fr 11fr;
+    grid-gap: 20px;
+    margin-top: 100px;
+}
+.wrapper {
+    width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+.profile {
+    display: grid;
+    grid-area: profile;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+    &__avatar {
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    &__button-avatar {
+        width: 200px;
+        background-color: #ECECEC;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
